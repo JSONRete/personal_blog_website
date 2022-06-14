@@ -3,4 +3,6 @@
     background-color: rgb(237, 22, 22);
     grid-area: nav;
     margin: 3px;
+    color: rgb(225, 55, 55);
+    font-size: 50px;
 }
