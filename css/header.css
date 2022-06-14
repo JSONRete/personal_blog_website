@@ -3,5 +3,7 @@
     background-image:    url(../assets/blur_stars_1920x720.jpeg);
     /* background-size: ; */
     background-position: center;
+    grid-area: header;
+    color: white;
 
 }
