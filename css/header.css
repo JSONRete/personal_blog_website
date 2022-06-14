@@ -1,0 +1,5 @@
+.header{
+    grid-area: header;
+    background-image:    url(../assets/blur_stars_1920x720.jpeg);
+    
+}
