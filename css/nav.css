@@ -2,4 +2,5 @@
     list-style: none;
     background-color: rgb(237, 22, 22);
     grid-area: nav;
+    margin: 3px;
 }
