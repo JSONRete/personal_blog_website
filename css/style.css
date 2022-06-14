@@ -1,0 +1,12 @@
+@import url(./header.css);
+
+.container {
+    display: grid;
+    grid-template-columns: 60px repeat(2,auto);
+    grid-template-rows: 100px 40px 30px 10px;
+    grid-template-areas:"header header header"
+                        "nav main aside"
+                        "nav main aside"
+                        "footer footer footer";
+    gap: 7.5px 15px;
+}
