@@ -1,10 +1,11 @@
 .footer {
     list-style: none;
-    background-color: rgb(0, 1, 60);
+    background-color: #ab840f;
     grid-area: footer;
-    color: #a0d6b4;
-    font-size: 60px;
+    color: #27df06;
+    /* text-shadow: 7px 5px 4px rgba(171,132,15,0.83); */
+    font-size: 30px;
     margin: 3px;
     border-style: ridge;
-    border-color: blueviolet;
+    border-color: #27df06;
 }
