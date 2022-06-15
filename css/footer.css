@@ -1,11 +1,19 @@
 .footer {
-    list-style: none;
+    /* list-style: none; */
     background-color: #ab840f;
     grid-area: footer;
     color: #27df06;
     text-shadow: 7px 5px 4px rgba(171,132,15,0.83);
-    font-size: 25px;
+    font-size: 15px;
     margin: 3px;
     border-style: ridge;
     border-color: #27df06;
+}
+
+#footer p.left {
+float: left;
+}
+
+#footer p.right {
+float: right;
 }
