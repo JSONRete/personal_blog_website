@@ -5,20 +5,22 @@
 @import url(./footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Lobster&display=swap');
 
+/* * {background-color: pink} */
+
 .container {
     display: grid;
     /* grid-template-columns: 60px repeat(2,auto); */
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 200px 500px 300px;
     /* grid-template-rows: 100px 140px 130px 110px; */
-    grid-template-rows: 150px 1fr 1fr 75px;
+    grid-template-rows: 150px 600px 75px;
     grid-template-areas:"header header header header header header"
                         "nav main main main aside aside"
                         "nav main main main aside aside"
                         "footer footer footer footer footer footer";
     gap: 15px 15px;
 
-    background-color: #a0d6b4;
+    /* background-color: #a0d6b4; */
     font-family: Lobster, Courier, monospace;
 }
 
@@ -27,4 +29,5 @@
       height: 150px; */
       border: 1px solid red;
       background: #F8FA9D;
+      font-family: 'Asap Condensed', Courier, monospace;
       }
