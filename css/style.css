@@ -5,7 +5,9 @@
 @import url(./footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Lobster&display=swap');
 
-/* * {background-color: pink} */
+.body {
+    background: pink;
+}
 
 .container {
     display: grid;
@@ -20,7 +22,7 @@
                         "footer footer footer footer footer footer";
     gap: 15px 15px;
 
-    /* background-color: #a0d6b4; */
+    background-color: #a0d6b4;
     font-family: Lobster, Courier, monospace;
 }
 

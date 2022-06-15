@@ -1,14 +1,11 @@
 .header{
     grid-area: header;
     background-image:    url(../assets/blur_stars_1920x720.jpeg);
-    /* background-size: ; */
     background-position: center;
     grid-area: header;
     color: #27df06;
     text-shadow: 7px 5px 4px rgba(171,132,15,0.83);
-    font-size: 35px;
-    text-align: justify;
-    
+    font-size: 100px;
     margin: 3px;
     border-style: ridge;
     border-color: #ab840f;
