@@ -1,8 +1,8 @@
 .nav {
     list-style: none;
-    /* background-color: #a0d6b4; */
     grid-area: nav;
     margin: 3px;
-    color: #a0d6b4;
+    color: #27df06;
     font-size: 50px;
+    /* background-color: #27df06; */
 }
