@@ -4,9 +4,9 @@
     /* background-size: ; */
     background-position: center;
     grid-area: header;
-    /* color: #a0d6b4; */
-    font-size: 100px;
+    color: #27df06;
+    font-size: 25px;
     margin: 3px;
     border-style: ridge;
-    border-color: blueviolet;
+    border-color: #ab840f;
 }
