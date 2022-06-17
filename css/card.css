@@ -1,0 +1,8 @@
+.card{
+    grid-area: main;
+    border: 1px solid red;
+    background-color: rgb(164, 231, 9);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Asap Condensed', Courier, monospace;
+}
