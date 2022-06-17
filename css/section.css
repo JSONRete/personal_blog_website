@@ -1,9 +1,11 @@
 .section {
-    list-style: none;
-    background-color: rgb(144, 237, 22);
+    display: flex;
+    justify-items: end;
+    align-items: center;
+    padding: 3px 3px;
+    /* background-color: rgb(144, 237, 22); */
     grid-area: main;
     margin: 3px;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    grid-area: main;
 }
