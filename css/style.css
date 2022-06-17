@@ -5,6 +5,7 @@
 @import url(./footer.css);
 @import url(./card.css);
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Lobster&display=swap');
+@import url(./blog_aside.css);
 
 .body {
     background: #ab840f;
