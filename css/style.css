@@ -3,6 +3,7 @@
 @import url(./section.css);
 @import url(./aside.css);
 @import url(./footer.css);
+@import url(./card.css);
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Lobster&display=swap');
 
 .body {
@@ -11,13 +12,12 @@
 
 .container {
     display: grid;
-    grid-template-columns: 200px 500px 300px;
-    grid-template-rows: 150px 675px 75px;
-    grid-template-areas:"header header header header header header"
-                        "nav main main main aside aside"
-                        "nav main main main aside aside"
-                        "footer footer footer footer footer footer";
-    gap: 15px 15px;
+    grid-template-columns: 150px auto 600px;
+    grid-template-rows: 125px 750px 75px;
+    grid-template-areas:"header header header"
+                        "nav main aside"
+                        "footer footer footer";
+    gap: 15px;
 
     background-color: #0093e8;
     font-family: Lobster, Courier, monospace;
