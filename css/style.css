@@ -9,6 +9,7 @@
 @import url(./my_button.css);
 @import url(./image.css);
 @import url(./article.css);
+@import url(./image_size.css);
 
 .body {
     background: #ab840f;
