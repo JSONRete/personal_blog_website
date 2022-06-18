@@ -1,11 +1,17 @@
 .blog-aside {
-    grid-area: aside;
-    background-image: url(../assets/top_hat.jpeg);
-    background-position: center;
-    font-size: 25px;
-    border-style: ridge;
-    border-color: #ab840f;
-    margin-right: 3px;
-    /* background-color: rgb(144, 237, 22); */
-}
+        grid-area: aside;
+        background-image: url(../assets/tophat_white_1080x.webp);
+        background-position: center;
+        background-size: auto;
+        font-size: 25px;
+        border-style: ridge;
+        border-color: #ab840f;
+        margin-right: 3px;
+        background-color: rgb(144, 237, 22);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
 
+}
