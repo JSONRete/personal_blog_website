@@ -1,0 +1,8 @@
+.article {
+    /* background-color: rgb(144, 237, 22); */
+    grid-area: main;
+    font-family: 'Asap Condensed', Courier, monospace;
+}
+
+h5 {
+    text-decoration: wavy underline;}
