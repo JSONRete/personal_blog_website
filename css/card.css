@@ -6,13 +6,24 @@
     font-family: 'Asap Condensed', Courier, monospace;
     border-style:ridge;
     padding: 3px;
-    padding-top: 1px;
+    /* padding-top: 1px; */
     box-sizing: border-box;
     margin-top: 15px;
     margin-right: 5px;
     background: #ab840f;
     }
 
-    h3 {
+    h4 {
         text-decoration: underline;
+        color: #27df06;
+    }
+    
+    h3 {
+        display:inline-block;margin-right:10px
+    }
+    
+    .user {
+        color: blue;
+        font-style: oblique;
+        display:inline-block
     }
