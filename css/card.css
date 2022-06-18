@@ -2,7 +2,7 @@
     border: 3px solid #27df06;
     justify-content: space-around;
     box-shadow: 0 4px 8px 0 #ab840fd4;
-    width: 150px;
+    max-width: 150px;
     font-family: 'Asap Condensed', Courier, monospace;
     border-style:ridge;
     padding: 3px;
