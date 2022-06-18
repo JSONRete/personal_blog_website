@@ -13,13 +13,17 @@
     background: #ab840f;
     }
 
-.myButton {
+.my-button {
         color: rgb(39, 223, 6); font-size: 12px; line-height: 12px; padding: 4px; border-radius: 
         22px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: 
         normal; font-variant: normal; text-transform: none; background-image: 
         linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
-        .myButton:hover {
+        .my-button:hover {
         background: #002be8; }
-        .myButton:active {
+        .my-button:active {
         background: #0093e8; 
+    }
+
+    .img-size {
+        width: 30px;
     }
