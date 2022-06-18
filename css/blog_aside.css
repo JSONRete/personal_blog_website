@@ -2,7 +2,7 @@
         grid-area: aside;
         background-image: url(../assets/tophat_white_1080x.webp);
         background-position: center;
-        background-size: auto;
+        background-size: contain;
         font-size: 25px;
         border-style: ridge;
         border-color: #ab840f;
