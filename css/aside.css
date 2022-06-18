@@ -1,6 +1,6 @@
 .aside {
     grid-area: aside;
-    background-image: url(../assets/tophat_white_1080x.webp);
+    background-image: url(../assets/top_hat.jpeg);
     background-position: center;
     font-size: 25px;
     border-style: ridge;
@@ -8,4 +8,3 @@
     margin-right: 3px;
     /* background-color: rgb(144, 237, 22); */
 }
-
