@@ -2,12 +2,15 @@
     background-color: #ab840f;
     grid-area: footer;
     color: #27df06;
-    text-shadow: 7px 5px 4px rgba(171,132,15,0.83);
     font-size: 25px;
-    margin: 3px;
+    margin-right: 3px;
     border-style: ridge;
     border-color: #27df06;
-    padding-bottom: 80px;
+    position: fixed;
+    /* left: 0; */
+    bottom: 0;
+    width: 99%;
+    align-items: center;
 }
 
 #footer p.left {
@@ -19,14 +22,16 @@ float: right;
 }
 
 .fa {
-    padding: 10px;
+    padding: 4px;
     font-size: 25px;
     width: 25px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 10px;
+    /* align-items: center; */
     border-radius: 50%;
     text-shadow: none;
+    /* position: relative; */
 }
 
 .fa:hover {
@@ -36,13 +41,13 @@ float: right;
 .fa-facebook {
     background: #3B5998;
     color: white;
-    position:relative; 
-    top:-13px; 
+    position:relative;
+    top: -5px;
 }
 
 .fa-linkedin {
     background: #007bb5;
     color: white;
-    position:relative; 
-    top:-13px;
+    position:relative;
+    top: -5px;
 }

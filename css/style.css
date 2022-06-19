@@ -20,7 +20,7 @@
 .container {
     display: grid;
     grid-template-columns: 150px auto 600px;
-    grid-template-rows: 125px 750px 75px;
+    grid-template-rows: 125px 750px auto;
     grid-template-areas:"header header header"
                         "nav main aside"
                         "footer footer footer";
@@ -29,22 +29,34 @@
     font-family: Lobster, Courier, monospace;
 }
 
-@media screen and (max-width:1024px) and (min-width:768px) {
+
+@media  screen and (max-width:949px) and (min-width:481px) {
     .container {
         display: grid;
-        grid-template-columns: 250px auto;
-        grid-template-rows: auto;
-        grid-template-areas:"nav main";
-        gap: 15px;
+        grid-template-columns: 450px 150px;
+        grid-template-rows: 350px auto 750px 75px;
+        grid-template-areas:"header header"
+                            "nav main"
+                            "aside main"
+                            "footer footer";
+        gap: 25px;
+        margin: 0px;
+        padding: 10px;
     }
 }
 
-@media screen and (max-width:767px)  {
+@media screen and (max-width:480px)  {
     .container {
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto ; 
-        grid-template-areas:"main";
+        grid-template-columns: 375px;
+        grid-template-rows: 250px 250px auto 575px 75px; ; 
+        grid-template-areas:"header"
+                            "nav"
+                            "main"
+                            "aside"
+                            "footer";
         row-gap: 15px;
+        margin: 0px;
+        padding: 10px;
     }
 }

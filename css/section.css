@@ -1,11 +1,9 @@
 .section {
     display: flex;
-    justify-items: end;
-    align-items: center;
+    flex-wrap: wrap;
     padding: 3px 3px;
     /* background-color: rgb(144, 237, 22); */
     grid-area: main;
     margin: 3px;
     flex-wrap: wrap;
-    grid-area: main;
 }
