@@ -15,6 +15,7 @@
 
 .body {
     background: #ab840f;
+    background-color: #0093e8;
 }
 
 .container {
@@ -25,7 +26,7 @@
                         "nav main aside"
                         "footer footer footer";
     gap: 15px;
-    background-color: #0093e8;
+    /* background-color: #0093e8; */
     font-family: Lobster, Courier, monospace;
 }
 
@@ -33,14 +34,14 @@
 @media  screen and (max-width:949px) and (min-width:481px) {
     .container {
         display: grid;
-        grid-template-columns: 450px 150px;
-        grid-template-rows: 350px auto 750px 75px;
+        grid-template-columns: 650px 250px;
+        grid-template-rows: 350px auto auto 75px;
         grid-template-areas:"header header"
-                            "nav main"
-                            "aside main"
+                            "nav aside"
+                            "main main"
                             "footer footer";
-        gap: 25px;
-        margin: 0px;
+        gap: 15px;
+        margin: 10px;
         padding: 10px;
     }
 }
@@ -48,7 +49,7 @@
 @media screen and (max-width:480px)  {
     .container {
         display: grid;
-        grid-template-columns: 375px;
+        grid-template-columns: 480px;
         grid-template-rows: 250px 250px auto 575px 75px; ; 
         grid-template-areas:"header"
                             "nav"
@@ -56,7 +57,7 @@
                             "aside"
                             "footer";
         row-gap: 15px;
-        margin: 0px;
+        margin: 10px;
         padding: 10px;
     }
 }
