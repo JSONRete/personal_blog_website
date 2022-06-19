@@ -1,10 +1,11 @@
 .aside {
     grid-area: aside;
     background-image: url(../assets/top_hat.jpeg);
-    background-position: center;
+    background-position: block;
     background-size: contain;
     border-style: ridge;
     border-color: #ab840f;
     margin-right: 3px;
+    margin-top: 20px;
     /* background-color: rgb(144, 237, 22); */
 }
